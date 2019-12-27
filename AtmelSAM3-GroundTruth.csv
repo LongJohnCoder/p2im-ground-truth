@@ -79,7 +79,7 @@ address,description,category,comments,peripheral
 0x400c0030,ADC Interrupt Status Register,SR,,ADC
 0x400e1014,PIO Controller Output Disable Register,CR,,PIOC
 0x400e1018,PIO Controller Output Status Register,SR,checks if pin is configured as input or output,PIOB
-0x400e103c,PIO Controller Pin Data Status Register,SR,this is not a SR of peripheral. It is the actual DR which get "state" 1/0 of each PIN. However DUE use it as status,PIOB
+0x400e103c,PIO Controller Pin Data Status Register,SR,this is not a SR of peripheral. It is the actual DR which get state 1/0 of each PIN. However DUE use it as status,PIOB
 0x400e1200,PIO Controller PIO Enable Register,CR,,PIOC
 0x400e1210,PIO Controller Output Enable Register,CR,,PIOC
 0x400e1244,PIO Controller Interrupt Disable Register,CR,,PIOC
