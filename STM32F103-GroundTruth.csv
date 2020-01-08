@@ -28,8 +28,8 @@ adress,name,category,Comments,peripheral
 0xa000011c,,,,FSMC
 0x40007000,Power control register (PWR_CR)  ,CR,,PWR
 0x40007004,5.4.2Power control/status register (PWR_CSR)   ,SR,,PWR
-0x40021000,Control register (RCC_CR)  ,CR,,RCC
-0x40021004,Clock configuration register (RCC_CFGR)   ,CR,,RCC
+0x40021000,Control register (RCC_CR)  ,C&SR,,RCC, hybrid
+0x40021004,Clock configuration register (RCC_CFGR)   ,C&SR,,RCC, hybrid
 0x40021008,7.3.2Clock interrupt register (RCC_CIR)  ,CR,,RCC
 0x4002100c,7.3.4APB2 peripheral reset register (RCC_APB2RSTR)   ,CR,,RCC
 0x40021010,APB1 peripheral reset register (RCC_APB1RSTR)   ,CR,,RCC
